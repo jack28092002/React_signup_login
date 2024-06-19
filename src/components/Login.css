@@ -1,0 +1,41 @@
+.container {
+  max-width: 40vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 1.37);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+}
+
+.MuiInputBase-root {
+  border-radius: 5rem !important;
+  font-size: 1.2rem !important;
+  color: white !important;
+  &:hover {
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #77a5b5 !important;
+    }
+  }
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #77a5b5 !important;
+}
+
+.MuiFormLabel-root {
+  font-size: 1.2rem !important;
+  color: white !important;
+}

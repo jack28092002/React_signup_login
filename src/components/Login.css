@@ -39,3 +39,13 @@
   font-size: 1.2rem !important;
   color: white !important;
 }
+.footer {
+  text-align: center;
+  font-size: 1rem;
+  color: #7bc3e4;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

@@ -104,6 +104,7 @@ const Signup = () => {
           </Button>
         </Stack>
       </Box>
+      <footer className="footer">Made by Jack</footer>
     </Box>
   );
 };

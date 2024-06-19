@@ -33,6 +33,7 @@ const Home = () => {
           Logout
         </Button>
       </Box>
+      <footer className="footer">Made by Jack</footer>
     </Box>
   );
 };
